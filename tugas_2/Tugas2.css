@@ -1,0 +1,182 @@
+body {
+    height: auto;
+    background-color: black;
+}
+
+.main {
+    height: auto;
+    background-color: #F3F4F6;
+}
+
+.logo {
+    width: 200px;
+    padding-top: 0;
+}
+
+.icon {
+    width: 84px 66px;
+    align-items: center;
+}
+
+.picture {
+    width: 100px;
+
+}
+
+.color-font {
+    color: #949EB2;
+}
+
+.font-1 {
+    font-size: 60px;
+    font-family: serif;
+    color: #38404f;
+    font-weight: bold;
+}
+
+.font-2 {
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: sans-serif;
+}
+
+.font-3 {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 25px;
+    font-style: oblique;
+}
+
+.font-4 {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 16px;
+    font-style: normal;
+    color: #949EB2;
+}
+
+.font-5 {
+    font-size: 50px;
+    font-family: serif;
+    color: #38404f;
+    font-weight: bold;
+}
+
+.font-6 {
+    font-size: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: sans-serif;
+    color: red;
+}
+
+.font-7 {
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 16px;
+    font-style: normal;
+    color: #949EB2;
+}
+
+.font-name {
+    font-size: 25px;
+    color: black
+}
+
+.font-paragraph {
+    font-size: 15px;
+    color: #949EB2;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    margin: 0px;
+}
+
+.footer {
+    overflow: hidden;
+    margin: 0px;
+    margin-bottom: 23px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer a {
+    text-align: left;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #778298;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: black;
+}
+
+.footer a:hover {
+    color: black;
+}
+
+.footer-text {
+    text-align: left;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: black;
+}
+
+.topnav a.split {
+    float: right;
+}
+
+.footer a.split {
+    float: right;
+}
+
+.search-bar {
+    max-width: 84vh;
+    height: 53px;
+}
+
+.container-bottom {
+    width: 560px;
+    background-color: #F3F4F6;
+}
+
+.container-bottom p {
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+
+.container-bottom h5 {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.input-group button {
+    width: 120px;
+    background-color: #65D777;
+}
+
+
+h1 {
+    text-align: center;
+
+}
+
+p {
+    text-align: justify;
+}
