@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mt-3">
+        <div class="main">
+            <div>
+                <h1> iCeuImoy </h1>
+            </div>
+
+            <div class="container">
+                <div class="row mt-5">
+                    <!-- Card 1 -->
+                    <div class=" col-auto card"> 
+                        <img class="product-image" src="assets/bala bala1.jpg" alt="Barang 1">
+                        <h2>Bakwan</h2>
+                        <h6>Harga: Rp. 12.000</h6>
+                        <button class="quantity-button-add" onclick="tambahBarang(1)">+</button>
+                        <input type="text" id="quantity-1" value="0" disabled>
+                        <button class="quantity-button-del" onclick="kurangBarang(1)">-</button>
+                        <p> *Note* : 1 porsi = 5 pcs</p>
+                    </div>
+
+                    <div class="col-auto card">
+                        <img class="product-image" src="assets/gehu.webp" alt="Barang 2">
+                        <h2>Tahu Pedas</h2>
+                        <h6>Harga: Rp. 10.000</h6>
+                        <button class="quantity-button-add" onclick="tambahBarang(2)">+</button>
+                        <input type="text" id="quantity-2" value="0" disabled>
+                        <button class="quantity-button-del" onclick="kurangBarang(2)">-</button>
+                        <p> *Note* : 1 porsi = 5 pcs</p>
+                    </div>
+                    <div class="col-auto card"> 
+                        <img class="product-image" src="assets/Tempe.jpeg" alt="Barang 3">
+                        <h2>Mendoan</h2>
+                        <h6>Harga: Rp. 9.000</h6>
+                        <button class="quantity-button-add" onclick="tambahBarang(3)">+</button>
+                        <input type="text" id="quantity-3" value="0" disabled>
+                        <button class="quantity-button-del" onclick="kurangBarang(3)">-</button>
+                        <p> *Note* : 1 porsi = 5 pcs</p>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <!-- Card 1 -->
+                    <div class=" col-auto card"> 
+                        <img class="product-image" src="assets/cireng.webp" alt="Barang 4">
+                        <h2>Cireng</h2>
+                        <h6>Harga: Rp. 15.000</h6>
+                        <button class="quantity-button-add" onclick="tambahBarang(4)">+</button>
+                        <input type="text" id="quantity-4" value="0" disabled>
+                        <button class="quantity-button-del" onclick="kurangBarang(4)">-</button>
+                        <p> *Note* : 1 porsi = 5 pcs</p>
+                    </div>
+
+                    <div class="col-auto card">
+                        <img class="product-image" src="assets/Karoket.webp" alt="Barang 5">
+                        <h2>Karoket</h2>
+                        <h6>Harga: Rp. 8.000</h6>
+                        <button class="quantity-button-add" onclick="tambahBarang(5)">+</button>
+                        <input type="text" id="quantity-5" value="0" disabled>
+                        <button class="quantity-button-del" onclick="kurangBarang(5)">-</button>
+                        <p> *Note* : 1 porsi = 5 pcs</p>
+                    </div>
+
+                    <div class="col-auto card"> 
+                        <img class="product-image" src="assets/risol.jpe" alt="Barang 6">
+                        <h2>Risol</h2>
+                        <h6>Harga: Rp. 16.000</h6>
+                        <button class="quantity-button-add" onclick="tambahBarang(6)">+</button>
+                        <input type="text" id="quantity-6" value="0" disabled>
+                        <button class="quantity-button-del" onclick="kurangBarang(6)">-</button>
+                        <p> *Note* : 1 porsi = 5 pcs</p>
+                    </div>
+                </div>
+
+            </div>
+        
+            <!-- Tambahkan jenis barang lainnya di sini jika diperlukan -->
+        </div>
+    </div>
+
+    <!-- Cart -->
+    <div id="cart">
+        <h2>Keranjang Belanja</h2>
+        <ul id="cart-items">
+        </ul>
+        <p>Total Belanja:<span id="total-price">0</span></p>
+        <p>Pajak:<span id="total-tax">0</span></p>
+        <p>Total Harga:<span id="total-shop">0</span></p>
+        <button class="button-order-food" id="pesan-button">Pesan Makanan</button>
+        <div class="notif-food" id="pesan-notif" style="display: none;">Makanan berhasil dipesan!</div>
+    </div>
+
+    
+
+</body>
+</html>
+
+

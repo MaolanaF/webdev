@@ -1,0 +1,103 @@
+/* Style untuk Body utama */
+.main{
+    border: gray solid 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+/* Style untuk box barang */
+.table-barang{
+    margin: 30px;
+}
+
+/* Style untuk card */
+.card {
+    border: 15px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+}
+
+.card p{
+    text-align: center;
+    text-shadow: #000000;
+    position: relative;
+    transform: translateY(-15px);
+}
+
+.card h6{
+    margin-bottom: 20px;
+}
+
+/* Style untuk gambar */
+.product-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Style untuk tombol tambah dan kurang */
+input{
+    width: 33px;
+    height:31px;
+    text-align: center;
+    font-size: 26px;
+    border:1px solid #000000;
+    border-radius:4px;
+    transform: translate(40px, -32px);
+}
+
+.quantity-button-add { 
+    width: 35px;
+    height: 33px;
+    border-radius: 10px;
+    background-color: purple;
+    color: #fff;
+    border: 1px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.quantity-button-del { 
+    width: 35px;
+    height: 33px;
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    border: 1px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    font-size: 15px;
+    text-align: center;
+    transform: translate(78px, -64px);
+}
+
+
+/* Style untuk keranjang */
+#cart {
+    position: fixed;
+    margin-right: 90px;
+    top: 132px;
+    right: 35px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.button-order-food{
+    margin-bottom: 5px;
+    transform: translate(70px, 5px);
+    border-radius: 25px;
+    border: #000000;
+    background-color: purple;
+    color: #fff;
+}
+
+.notif-food{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
