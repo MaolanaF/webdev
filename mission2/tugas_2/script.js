@@ -1,4 +1,4 @@
-const char = document.getElementById("dino");
+const char = document.getElementById("stickman");
 const cactus = document.getElementById("cactus");
 const playerScore = document.getElementById("score");
 
