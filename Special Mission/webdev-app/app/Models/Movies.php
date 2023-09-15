@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Movies extends Model
 {
     protected $table = 'movies';
-    protected $primarykey = 'id';
+    protected $primaryKey = 'id';
     protected $fillable = ['title', 'description', 'genre', 'sutradara'];
     
     use HasFactory;
